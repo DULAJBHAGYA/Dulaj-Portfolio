@@ -5,6 +5,7 @@ import { Result } from "postcss";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
+import GithubIcon from "@/assets/icons/github.svg";
 import GrainImage from "@/assets/images/grain.jpg";
 
 const portfolioProjects = [
@@ -92,13 +93,14 @@ export const ProjectsSection = () => {
               <a href={project.link}>
                 <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center ArrowUpNightIcon gap-2 mt-8">
                   <span>Visit Live Site</span>
-                  <ArrowUpRightIcon className="size-2"></ArrowUpRightIcon>
+                  <ArrowUpRightIcon className="size-4"></ArrowUpRightIcon>
                   </button>
               </a>
               {/* inline-flex items-center gap-2 border border-white text-gray-900 bg-white h-12 px-6 rounded-xl */}
 
               <a href={project.link}>
                 <button className="text-white h-12 w-full md:w-auto border border-white/15 px-6 rounded-xl font-normal inline-flex items-center justify-center gap-2 mt-8">
+                <GithubIcon className="size-4"></GithubIcon>
                   <span>Github Repo</span>
                   </button>
               </a>
