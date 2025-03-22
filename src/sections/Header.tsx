@@ -5,8 +5,8 @@ export const Header = () => {
       <a href="#" className="nav-items">
       Home
       </a>
-      <a href="#" className="nav-items">Projects</a>
       <a href="#" className="nav-items">About</a>
+      <a href="#" className="nav-items">Projects</a>
       <a href="#" className="nav-items bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900">Contact</a>
     </nav>
   </div>
