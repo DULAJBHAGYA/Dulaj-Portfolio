@@ -3,7 +3,7 @@ import { link } from "fs";
 
 const footerLinks = [
   {
-    title: "Linked",
+    title: "LinkedIn",
     href: "#",
   },
   {

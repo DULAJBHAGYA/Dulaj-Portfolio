@@ -81,13 +81,13 @@ export const ProjectsSection = () => {
               <h3 className="font-serif text-2xl mt-2 md:mt-5 md:text-4xl">{project.title}</h3>
               <hr className="border-t-2 border-white/5 mt-4 md:mt-5"></hr>
               <ul className="flex flex-col gap-4 mt-4 md:mt-5">
-                {project.results.map((Result) => (
-                  <li className="flex gap-2 text-sm md:text-base text-white/50">
-                    <CheckIcon className="size-5 md:siz-6"/>
-                    <span>{Result.title}</span>
-                    </li>
-                ))}
-              </ul>
+              {project.results.map((Result) => (
+                <li key={Result.title} className="flex gap-2 text-sm md:text-base text-white/50">
+                  <CheckIcon className="size-5 md:siz-6"/>
+                  <span>{Result.title}</span>
+                </li>
+              ))}
+            </ul>
 
               <div className="flex flex-col md:flex-row  gap-1 md:gap-4">
               <a href={project.link}>
