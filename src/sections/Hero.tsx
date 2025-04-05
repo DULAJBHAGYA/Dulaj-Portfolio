@@ -84,7 +84,7 @@ export const HeroSection = () => {
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
             I specialize in transforming designs into functional,
-            high-performing web & mobile applications. Let's discuss your next projects.
+            high-performing web & mobile applications. Let&apos;s discuss your next projects.
           </p>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-center mt-8 gap-4">
@@ -94,7 +94,7 @@ export const HeroSection = () => {
           </button>
           <button className="inline-flex items-center gap-2 border border-white text-gray-900 bg-white h-12 px-6 rounded-xl">
             <span>👋</span>
-            <span className="font-semibold">Let's Connect</span>
+            <span className="font-semibold">Let&apos;s Connect</span>
           </button>
         </div>
       </div>
