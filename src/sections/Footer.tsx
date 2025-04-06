@@ -4,23 +4,23 @@ import { link } from "fs";
 const footerLinks = [
   {
     title: "LinkedIn",
-    href: "#",
+    href: "https://www.linkedin.com/in/dulajbhagya/",
   },
   {
     title: "GitHub",
-    href: "#",
+    href: "https://github.com/DULAJBHAGYA",
   },
   {
     title: "Medium",
-    href: "#",
+    href: "https://medium.com/@dulajupananda",
   },
   {
     title: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/_dulaj.98/?hl=en",
   },
   {
     title: "Facebook",
-    href: "#",
+    href: "https://www.facebook.com/profile.php?id=100005369356450",
   },
 ];
 

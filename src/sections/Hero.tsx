@@ -8,6 +8,7 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 
 export const HeroSection = () => {
   return (
+    <section id="home">
     <div className="py-32 md:py-38 lg:py-44 relative z-0 overflow-x-clip">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
       <div
@@ -99,5 +100,6 @@ export const HeroSection = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };

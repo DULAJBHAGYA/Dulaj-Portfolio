@@ -26,7 +26,8 @@ export const ContactSection = () => {
   };
   
   return (
-    <div className="bg-white dark:bg-gray-900">
+    <section id='contact'>
+    <div className="bg-white dark:bg-gray-900 mt-20">
       <div className="container mx-auto px-4 py-10 sm:px-6 lg:px-4">
         <div className="max-w-5xl mx-auto">
           
@@ -128,5 +129,6 @@ export const ContactSection = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 }
