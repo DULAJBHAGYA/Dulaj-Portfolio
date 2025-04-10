@@ -12,36 +12,47 @@ import { SectionHeader } from "@/components/SectionHeader";
 
 const portfolioProjects = [
   {
-    company: "EduApp e-learning platform",
-    title: "Dark Saas Landing Page",
+    title: "EduApp E-Learning Platform",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "https://youtu.be/4k7IdSLxh6w",
+    repo:"",
     image: darkSaasLandingPage,
   },
   {
-    company: "highway bus management system",
-    title: "Light Saas Landing Page",
+    title: "Highway Bus Management System",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
     link: "https://youtu.be/7hi5zwO75yc",
+    repo:"",
     image: lightSaasLandingPage,
   },
   {
-    company: "mern job portal",
-    title: "AI Startup Landing Page",
+    title: "SEDS Mora Website",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "https://youtu.be/Z7I5uSRHMHg",
+    repo:"",
+    image: mernJobPortalImage,
+  },
+  {
+    title: "Mern Job Portal",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://youtu.be/Z7I5uSRHMHg",
+    repo:"https://github.com/DULAJBHAGYA/MERN-Job-portal",
     image: mernJobPortalImage,
   },
 ];
@@ -74,10 +85,7 @@ export const ProjectsSection = () => {
 
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
-              
-                <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
-                  <span>{project.company}</span>
-                </div>
+
              
               <h3 className="font-serif text-2xl mt-2 md:mt-5 md:text-4xl">{project.title}</h3>
               <hr className="border-t-2 border-white/5 mt-4 md:mt-5"></hr>
@@ -91,16 +99,16 @@ export const ProjectsSection = () => {
             </ul>
 
               <div className="flex flex-col md:flex-row  gap-1 md:gap-4">
-              <a href={project.link}>
-                <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center ArrowUpNightIcon gap-2 mt-8">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <button className="bg-white text-gray-950 hover:text-white h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center ArrowUpNightIcon gap-2 mt-8 hover:bg-white/10">
                   <span>Visit Live Site</span>
                   <ArrowUpRightIcon className="size-4"></ArrowUpRightIcon>
                   </button>
               </a>
               {/* inline-flex items-center gap-2 border border-white text-gray-900 bg-white h-12 px-6 rounded-xl */}
 
-              <a href={project.link}>
-                <button className="text-white h-12 w-full md:w-auto border border-white/15 px-6 rounded-xl font-normal inline-flex items-center justify-center gap-2 mt-8">
+              <a href={project.repo} target="_blank" rel="noopener noreferrer">
+                <button className="text-white h-12 w-full md:w-auto border border-white/15 px-6 rounded-xl font-normal inline-flex items-center justify-center gap-2 mt-8 hover:bg-white/5">
                 <GithubIcon className="size-4"></GithubIcon>
                   <span>Github Repo</span>
                   </button>
