@@ -73,7 +73,7 @@ export const TestimonialsSection = () => {
 
                   <div className="flex justify-end">
                   <a href={testimonial.link} target="_blank" rel="noopener noreferrer">
-                    <button className="text-white h-10 w-full md:w-auto border border-white/15 px-6 rounded-xl font-normal inline-flex items-center justify-center gap-2 mt-4">
+                    <button className="text-white h-10 w-full md:w-auto border border-white/15 px-6 rounded-xl font-normal inline-flex items-center justify-center gap-2 mt-4 hover:bg-white/5">
                       <span>Read More</span>
                     </button>
                   </a>

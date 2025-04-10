@@ -120,7 +120,7 @@ export const ContactSection = () => {
             {/* Submit Button */}
             <div className="flex justify-end">
             <a>
-                <button className="text-white h-12 w-full md:w-auto border border-white/15 px-6 rounded-xl font-normal inline-flex items-center justify-center gap-2 mt-8">
+                <button className="text-white h-12 w-full md:w-auto border border-white/15 px-6 rounded-xl font-normal inline-flex items-center justify-center gap-2 mt-8 hover:bg-white/5">
                   <span>Send Message</span>
                   </button>
               </a>
