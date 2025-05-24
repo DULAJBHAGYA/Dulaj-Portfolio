@@ -94,14 +94,14 @@ export const HeroSection = () => {
             {/* Fixed "Explore My Work" button */}
             <Link href="#projects" className="z-10">
               <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl bg-transparent hover:bg-white/20 transition-colors duration-300">
-                <span className="font-semibold">Explore My Work</span>
+                <span className="font-semibold text-sm">Explore My Work</span>
                 <ArrowDown className="size-4" />
               </button>
             </Link>
 
             {/* Fixed "Let's Connect" button */}
             <Link href="#contact" className="z-10">
-              <button className="inline-flex items-center gap-2 border border-white text-gray-900 bg-white h-12 px-6 rounded-xl hover:bg-gray-100 transition-colors duration-300">
+              <button className="inline-flex text-sm items-center gap-2 border border-white text-gray-900 bg-white h-12 px-6 rounded-xl hover:bg-gray-100 transition-colors duration-300">
                 <span>👋</span>
                 <span className="font-semibold">Let&apos;s Connect</span>
               </button>

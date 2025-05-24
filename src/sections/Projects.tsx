@@ -55,6 +55,17 @@ const portfolioProjects = [
     repo:"https://github.com/DULAJBHAGYA/MERN-Job-portal",
     image: mernJobPortalImage,
   },
+  {
+    title: "Mern LMS",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://youtu.be/Z7I5uSRHMHg",
+    repo:"https://github.com/DULAJBHAGYA/MERN-Job-portal",
+    image: mernJobPortalImage,
+  },
 ];
 
 export const ProjectsSection = () => {
