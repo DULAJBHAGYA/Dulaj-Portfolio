@@ -1,3 +1,4 @@
+import { Poppins } from "next/font/google";
 import type { Config } from "tailwindcss";
 import plugin from 'tailwindcss/plugin';
 
@@ -25,6 +26,7 @@ const config: Config = {
       fontFamily: {
         sans: "var(--font-sans)",
         serif: "var(--font-serif)",
+        Poppins: "var(--font-poppins)",
       },
       keyframes: {
         "move-left": {
