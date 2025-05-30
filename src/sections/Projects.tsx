@@ -2,6 +2,7 @@ import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import trafficCollisionApp from "@/assets/images/traffic-collision-app.png";
 import mernJobPortalImage from "@/assets/images/mernjobportal.png";
+import aiITPathFinder from "@/assets/images/ai-it-path-finder.png";
 import { Result } from "postcss";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -9,12 +10,16 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import GrainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaFileAlt } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiMongodb,
   SiMysql,
   SiSpringboot,
+  SiDjango,
+  SiSpacy,
+  SiPuppeteer,
+  SiMamp,
   SiDotnet,
   SiFirebase,
   SiPostgresql,
@@ -24,13 +29,33 @@ import {
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript } from "react-icons/bi";
 import { DiDotnet } from "react-icons/di";
-import { DiMsqlServer } from "react-icons/di";
+import { DiMsqlServer, DiPostgresql } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { VscGithub } from "react-icons/vsc";
 import { IoIosArrowForward } from "react-icons/io";
 
 const portfolioProjects = [
+  {
+    title: "AI IT Path Finder",
+    results: [
+      { title: "Provides personalized job recommendations for IT professionals",},
+      { title: "Generates dynamic CVs using user input and AI" },
+      { title: "Automates document generation and export as PDF" },
+    ],
+    link: "https://youtu.be/4k7IdSLxh6w",
+    repo: "https://github.com/DULAJBHAGYA/AI-IT-Path-Finder---CV-Generation-Model",
+    image: aiITPathFinder,
+    technologies: [
+      { name: "React", icon: FaReact },
+      { name: "DJango", icon: SiDjango },
+      { name: "Spacy", icon: SiSpacy },
+      { name: "PostgreSql", icon: DiPostgresql },
+      { name: "MongoDB", icon: SiMongodb },
+      { name: "Puppeteer", icon: SiPuppeteer },
+      { name: "DraftJS", icon: FaFileAlt },
+    ],
+  },
   {
     title: "EduApp E-Learning Platform",
     results: [
@@ -82,6 +107,7 @@ const portfolioProjects = [
       { name: "TailwindCSS", icon: SiTailwindcss },
       { name: "SpringBoot", icon: SiSpringboot },
       { name: "MySQl", icon: SiMysql },
+      { name: "Mamp", icon: SiMamp },
     ],
   },
   {
@@ -154,7 +180,8 @@ export const ProjectsSection = () => {
           {portfolioProjects.map((project, projectIndex) => (
             <div
               key={project.title}
-              className="bg-gray-800 rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl
+              className="bg-gray-800 rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute 
+              after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl
                after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 after:pointer-events-none sticky"
               style={{
                 top: `calc(64px + ${projectIndex * 50}px`,
@@ -169,7 +196,7 @@ export const ProjectsSection = () => {
 
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
-                  <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-4xl">
+                  <h3 className="font-poppins text-2xl font-bold mt-2 md:mt-2 md:text-4xl">
                     {project.title}
                   </h3>
                   <hr className="border-t-2 border-white/5 mt-2 md:mt-5"></hr>
