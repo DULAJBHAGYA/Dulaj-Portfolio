@@ -49,7 +49,7 @@ const portfolioProjects = [
       { title: "Generates dynamic CVs using user input and AI" },
       { title: "Automates document generation and export as PDF" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
+    link: "",
     repo: "https://github.com/DULAJBHAGYA/AI-IT-Path-Finder---CV-Generation-Model",
     image: aiITPathFinder,
     technologies: [
@@ -65,9 +65,9 @@ const portfolioProjects = [
   {
     title: "Traffic Collision Stats Web Application",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Displays traffic collision statistics and detailed reports" },
+      { title: "Allows CRUD operations on collision cases" },
+      { title: "Supports user management and administrative control over data" }
     ],
     link: "",
     repo: "https://github.com/DULAJBHAGYA/Traffic-Collision-Dashboard",
@@ -83,11 +83,11 @@ const portfolioProjects = [
   {
     title: "EDEMEY Learning Management System",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Learners can enroll in and purchase courses" },
+      { title: "Teachers can upload videos and learning resources" },
+      { title: "Offers a user-friendly interface for smooth navigation and usage" }
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "",
     repo: "https://github.com/DULAJBHAGYA/MERN-LMS",
     image: mernLMS,
     technologies: [
@@ -101,11 +101,11 @@ const portfolioProjects = [
   {
     title: "BOOKTRACK Book Manager App",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Manages books with full CRUD operations" },
+      { title: "Displays detailed information for each book" },
+      { title: "Provides an organized interface for efficient book tracking" }
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "",
     repo: "https://github.com/DULAJBHAGYA/Book-manager-app-angular-and-dot-net",
     image: bookManagerApp,
     technologies: [
@@ -118,11 +118,11 @@ const portfolioProjects = [
   {
     title: "Job Portal for IT Prefessionals",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Allows users to post and browse job listings" },
+      { title: "Enables filtering and searching for relevant job opportunities" },
+      { title: "Helps users find and apply for nearby suitable jobs" }
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "",
     repo: "https://github.com/DULAJBHAGYA/MERN-Job-portal",
     image: mernJobPortalImage,
     technologies: [
@@ -136,11 +136,11 @@ const portfolioProjects = [
   {
     title: "SEDS Mora Official Website",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Complete information about SEDS Mora and its mission" },
+      { title: "Projects, achievements, and organizational history" },
+      { title: "Features team details, events, and all relevant updates such as events" }
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "",
     repo: "",
     image: mernJobPortalImage,
     technologies: [
@@ -149,18 +149,18 @@ const portfolioProjects = [
     ],
   },
   {
-    title: "EduApp E-Learning Platform",
+    title: "EduApp E-Learning Mobile Application",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Supports two user roles: students and teachers" },
+      { title: "Students can enroll in and access purchased courses" },
+      { title: "Teachers can upload educational content and manage resources" }
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    repo: "",
+    link: "",
+    repo: "https://github.com/DULAJBHAGYA/E-Learning-Platform",
     image: darkSaasLandingPage,
     technologies: [
       { name: "Flutter", icon: SiFlutter },
-      { name: "PostgreSQL", icon: DiPostgresql },
+      { name: "PostgreSQL", icon: SiPostgresql },
       { name: "GOLang", icon: SiGoland },
       { name: "Docker", icon: SiDocker },
     ],
@@ -168,12 +168,12 @@ const portfolioProjects = [
   {
     title: "Highway Bus Management System",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Admins manage highways, buses, schedules, and fares" },
+      { title: "Users can view real-time bus times, locations, and fare details" },
+      { title: "Includes lost and found tracking for passenger items" }
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    repo: "",
+    link: "",
+    repo: "https://github.com/DULAJBHAGYA/HBMS-Web-application",
     image: lightSaasLandingPage,
     technologies: [
       { name: "React", icon: FaReact },
@@ -185,19 +185,35 @@ const portfolioProjects = [
     ],
   },
   {
-    title: "To-Do Mobile Application",
+    title: "TaskMaster To-Do Mobile Application",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Allows users to log in securely" },
+      { title: "Supports CRUD operations on to-do tasks" },
+      { title: "Offers a simple and intuitive interface for task management" }
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    repo: "",
+    link: "",
+    repo: "https://github.com/DULAJBHAGYA/todoApp",
     image: lightSaasLandingPage,
     technologies: [
       { name: "Flutter", icon: SiFlutter },
       { name: "Dart", icon: SiDart },
-      { name: "PostgreSQl", icon: DiPostgresql },
+      { name: "PostgreSQl", icon: SiPostgresql },
+    ],
+  },
+  {
+    title: "Salons & Spas appointment booking Mobile Application",
+    results: [
+      { title: "Enables users to search for nearby salons and spas" },
+      { title: "Allows booking appointments and checking available services" },
+      { title: "Displays service details and available items for easy selection" }
+    ],
+    link: "",
+    repo: "https://github.com/DULAJBHAGYA/Appointment-Booking-Mobile-App-for-Sallon-and-Spa",
+    image: lightSaasLandingPage,
+    technologies: [
+      { name: "Flutter", icon: SiFlutter },
+      { name: "Firebase", icon: SiFirebase },
+      { name: "PostgreSQl", icon: SiPostgresql },
     ],
   },
   
