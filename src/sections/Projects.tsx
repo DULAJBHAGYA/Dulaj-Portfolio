@@ -3,6 +3,8 @@ import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import trafficCollisionApp from "@/assets/images/traffic-collision-app.png";
 import mernJobPortalImage from "@/assets/images/mernjobportal.png";
 import aiITPathFinder from "@/assets/images/ai-it-path-finder.png";
+import mernLMS from "@/assets/images/mern-lms.png";
+import bookManagerApp from "@/assets/images/book-manager-app.png";
 import { Result } from "postcss";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -20,7 +22,11 @@ import {
   SiSpacy,
   SiPuppeteer,
   SiMamp,
+  SiAngular,
+  SiCss3,
   SiDotnet,
+  SiFlutter,
+  SiDart,
   SiFirebase,
   SiPostgresql,
   SiGoland,
@@ -29,7 +35,7 @@ import {
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript } from "react-icons/bi";
 import { DiDotnet } from "react-icons/di";
-import { DiMsqlServer, DiPostgresql } from "react-icons/di";
+import { DiMsqlServer, DiPostgresql, DiDart } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { VscGithub } from "react-icons/vsc";
@@ -57,42 +63,6 @@ const portfolioProjects = [
     ],
   },
   {
-    title: "EduApp E-Learning Platform",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    repo: "",
-    image: darkSaasLandingPage,
-    technologies: [
-      { name: "React", icon: FaReact },
-      { name: "TailwindCSS", icon: SiTailwindcss },
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "Express.js", icon: SiExpress },
-      { name: "MongoDB", icon: SiMongodb },
-    ],
-  },
-  {
-    title: "Highway Bus Management System",
-    results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
-    ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    repo: "",
-    image: lightSaasLandingPage,
-    technologies: [
-      { name: "React", icon: FaReact },
-      { name: "TailwindCSS", icon: SiTailwindcss },
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "Express.js", icon: SiExpress },
-      { name: "MongoDB", icon: SiMongodb },
-    ],
-  },
-  {
     title: "Traffic Collision Stats Web Application",
     results: [
       { title: "Boosted sales by 20%" },
@@ -111,7 +81,60 @@ const portfolioProjects = [
     ],
   },
   {
-    title: "SEDS Mora Website",
+    title: "EDEMEY Learning Management System",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://youtu.be/Z7I5uSRHMHg",
+    repo: "https://github.com/DULAJBHAGYA/MERN-LMS",
+    image: mernLMS,
+    technologies: [
+      { name: "React", icon: FaReact },
+      { name: "TailwindCSS", icon: SiTailwindcss },
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "Express.js", icon: SiExpress },
+      { name: "MongoDB", icon: SiMongodb },
+    ],
+  },
+  {
+    title: "BOOKTRACK Book Manager App",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://youtu.be/Z7I5uSRHMHg",
+    repo: "https://github.com/DULAJBHAGYA/Book-manager-app-angular-and-dot-net",
+    image: bookManagerApp,
+    technologies: [
+      { name: "Angular", icon: SiAngular },
+      { name: "CSS", icon: SiCss3 },
+      { name: "DotNet", icon: SiDotnet },
+      { name: "MsSQLServer", icon: DiMsqlServer },
+    ],
+  },
+  {
+    title: "Job Portal for IT Prefessionals",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://youtu.be/Z7I5uSRHMHg",
+    repo: "https://github.com/DULAJBHAGYA/MERN-Job-portal",
+    image: mernJobPortalImage,
+    technologies: [
+      { name: "React", icon: FaReact },
+      { name: "TailwindCSS", icon: SiTailwindcss },
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "Express.js", icon: SiExpress },
+      { name: "MongoDB", icon: SiMongodb },
+    ],
+  },
+  {
+    title: "SEDS Mora Official Website",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
@@ -123,23 +146,38 @@ const portfolioProjects = [
     technologies: [
       { name: "React", icon: FaReact },
       { name: "TailwindCSS", icon: SiTailwindcss },
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "Express.js", icon: SiExpress },
-      { name: "MongoDB", icon: SiMongodb },
     ],
   },
   {
-    title: "Mern Job Portal",
+    title: "EduApp E-Learning Platform",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    repo: "https://github.com/DULAJBHAGYA/MERN-Job-portal",
-    image: mernJobPortalImage,
+    link: "https://youtu.be/4k7IdSLxh6w",
+    repo: "",
+    image: darkSaasLandingPage,
+    technologies: [
+      { name: "Flutter", icon: SiFlutter },
+      { name: "PostgreSQL", icon: DiPostgresql },
+      { name: "GOLang", icon: SiGoland },
+      { name: "Docker", icon: SiDocker },
+    ],
+  },
+  {
+    title: "Highway Bus Management System",
+    results: [
+      { title: "Boosted sales by 20%" },
+      { title: "Expanded customer reach by 35%" },
+      { title: "Increased brand awareness by 15%" },
+    ],
+    link: "https://youtu.be/7hi5zwO75yc",
+    repo: "",
+    image: lightSaasLandingPage,
     technologies: [
       { name: "React", icon: FaReact },
+      { name: "ReactNative", icon: FaReact },
       { name: "TailwindCSS", icon: SiTailwindcss },
       { name: "Node.js", icon: FaNodeJs },
       { name: "Express.js", icon: SiExpress },
@@ -147,23 +185,22 @@ const portfolioProjects = [
     ],
   },
   {
-    title: "Mern LMS",
+    title: "To-Do Mobile Application",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Boosted sales by 20%" },
+      { title: "Expanded customer reach by 35%" },
+      { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    repo: "https://github.com/DULAJBHAGYA/MERN-Job-portal",
-    image: mernJobPortalImage,
+    link: "https://youtu.be/7hi5zwO75yc",
+    repo: "",
+    image: lightSaasLandingPage,
     technologies: [
-      { name: "React", icon: FaReact },
-      { name: "TailwindCSS", icon: SiTailwindcss },
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "Express.js", icon: SiExpress },
-      { name: "MongoDB", icon: SiMongodb },
+      { name: "Flutter", icon: SiFlutter },
+      { name: "Dart", icon: SiDart },
+      { name: "PostgreSQl", icon: DiPostgresql },
     ],
   },
+  
 ];
 
 export const ProjectsSection = () => {
@@ -184,7 +221,7 @@ export const ProjectsSection = () => {
               after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl
                after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 after:pointer-events-none sticky"
               style={{
-                top: `calc(64px + ${projectIndex * 50}px`,
+                top: `calc(64px + ${projectIndex * 10}px`,
               }}
             >
               <div
