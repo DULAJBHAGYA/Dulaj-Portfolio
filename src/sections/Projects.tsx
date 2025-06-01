@@ -5,6 +5,7 @@ import mernJobPortalImage from "@/assets/images/mernjobportal.png";
 import aiITPathFinder from "@/assets/images/ai-it-path-finder.png";
 import mernLMS from "@/assets/images/mern-lms.png";
 import bookManagerApp from "@/assets/images/book-manager-app.png";
+import sallonReservations from "@/assets/images/sallon-reservations.png";
 import { Result } from "postcss";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -81,7 +82,7 @@ const portfolioProjects = [
     ],
   },
   {
-    title: "EDEMEY Learning Management System",
+    title: "EDEMY Learning Management System",
     results: [
       { title: "Learners can enroll in and purchase courses" },
       { title: "Teachers can upload videos and learning resources" },
@@ -209,7 +210,7 @@ const portfolioProjects = [
     ],
     link: "",
     repo: "https://github.com/DULAJBHAGYA/Appointment-Booking-Mobile-App-for-Sallon-and-Spa",
-    image: lightSaasLandingPage,
+    image: sallonReservations,
     technologies: [
       { name: "Flutter", icon: SiFlutter },
       { name: "Firebase", icon: SiFirebase },
