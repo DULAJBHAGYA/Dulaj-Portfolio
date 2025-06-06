@@ -17,9 +17,6 @@ export const Header = () => {
   const navItems = [
     { href: '#home', label: 'Home' },
     { href: '#about', label: 'About' },
-    { href: '#skills', label: 'Skills' },
-    { href: '#education', label: 'Education' },
-    { href: '#expiriences', label: 'Expirience' },
     { href: '#projects', label: 'Projects' },
     { href: '#blogs', label: 'Blogs' },
     { href: '#contact', label: 'Contact', isSpecial: true }
