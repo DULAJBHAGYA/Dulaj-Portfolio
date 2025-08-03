@@ -202,6 +202,22 @@ const portfolioProjects = [
     ],
   },
   {
+    title: "WeSpend - Expense Tracker Web Application",
+    results: [
+      { title: "Enables users to search for nearby salons and spas" },
+      { title: "Allows booking appointments and checking available services" },
+      { title: "Displays service details and available items for easy selection" }
+    ],
+    link: "",
+    repo: "https://github.com/DULAJBHAGYA/Appointment-Booking-Mobile-App-for-Sallon-and-Spa",
+    image: sallonReservations,
+    technologies: [
+      { name: "Flutter", icon: SiFlutter },
+      { name: "Firebase", icon: SiFirebase },
+      { name: "PostgreSQl", icon: SiPostgresql },
+    ],
+  },
+  {
     title: "Salons & Spas appointment booking Mobile Application",
     results: [
       { title: "Enables users to search for nearby salons and spas" },

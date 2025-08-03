@@ -1,4 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dulaj Upananda - Personal Portfolio
+
+A modern, responsive personal portfolio website built with Next.js, TypeScript, and Tailwind CSS. This project showcases my skills, projects, and experience as a software engineer.
+
+## 🚀 Features
+
+- **Modern Design**: Clean and professional portfolio layout
+- **Responsive**: Fully responsive design that works on all devices
+- **Fast Performance**: Built with Next.js for optimal performance
+- **TypeScript**: Type-safe development experience
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **Interactive Elements**: Smooth animations and transitions
+- **Project Showcase**: Dedicated section to display projects
+- **Contact Form**: Easy way for visitors to get in touch
+- **Download CV**: Direct download link for resume
+
+## 📋 Sections
+
+- **Hero**: Introduction and call-to-action
+- **About**: Personal information and background
+- **Skills**: Technical skills and technologies
+- **Projects**: Portfolio of work and projects
+- **Testimonials**: Client and colleague feedback
+- **Contact**: Contact information and form
+- **Footer**: Additional links and information
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Custom SVG icons
+- **Deployment**: Vercel (recommended)
+
+## 🎨 Template Usage
+
+This portfolio template is open for anyone to use for their personal portfolio! Feel free to:
+
+- Fork this repository
+- Customize the content with your own information
+- Modify the styling to match your brand
+- Add or remove sections as needed
+- Deploy to your own domain
+
+### Customization Tips
+
+1. **Personal Information**: Update the content in the components to reflect your experience
+2. **Projects**: Replace the project images and descriptions with your own work
+3. **Styling**: Modify the Tailwind classes to match your preferred color scheme
+4. **Images**: Replace the avatar and project images with your own
+5. **Contact**: Update contact information and social media links
 
 ## Getting Started
 
@@ -34,3 +84,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests for improvements.
+
+---
+
+**Note**: This is a personal portfolio template that can be freely used and customized for your own portfolio website.
