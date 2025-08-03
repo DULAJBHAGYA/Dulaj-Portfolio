@@ -6,6 +6,7 @@ import aiITPathFinder from "@/assets/images/ai-it-path-finder.png";
 import mernLMS from "@/assets/images/mern-lms.png";
 import bookManagerApp from "@/assets/images/book-manager-app.png";
 import sallonReservations from "@/assets/images/sallon-reservations.png";
+import dailyExpenseTracker from "@/assets/images/expense-tracker.jpeg";
 import { Result } from "postcss";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -13,13 +14,16 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import GrainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
-import { FaReact, FaNodeJs, FaFileAlt } from "react-icons/fa";
+import { FaReact, FaJava, FaNodeJs, FaFileAlt } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiMongodb,
   SiMysql,
+  SiClerk,
   SiSpringboot,
   SiDjango,
+  SiVite,
+  SiNginx,
   SiSpacy,
   SiPuppeteer,
   SiMamp,
@@ -32,6 +36,7 @@ import {
   SiPostgresql,
   SiGoland,
   SiDocker,
+  SiNextdotjs,
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript } from "react-icons/bi";
@@ -202,19 +207,44 @@ const portfolioProjects = [
     ],
   },
   {
-    title: "WeSpend - Expense Tracker Web Application",
+    title: "ToDo Web Application",
     results: [
-      { title: "Enables users to search for nearby salons and spas" },
-      { title: "Allows booking appointments and checking available services" },
-      { title: "Displays service details and available items for easy selection" }
+      { title: "Enables users to add, edit, and delete tasks" },
+      { title: "Allows users to mark tasks as completed" },
+      { title: "Displays priority levels for tasks" }
     ],
     link: "",
-    repo: "https://github.com/DULAJBHAGYA/Appointment-Booking-Mobile-App-for-Sallon-and-Spa",
-    image: sallonReservations,
+    repo: "https://github.com/DULAJBHAGYA/To-Do-Application",
+    image: '',
     technologies: [
-      { name: "Flutter", icon: SiFlutter },
-      { name: "Firebase", icon: SiFirebase },
+      { name: "React", icon: FaReact },
+      { name: "TailwindCSS", icon: SiTailwindcss },
+      { name: "TypeScript", icon: BiLogoTypescript },
+      { name: "Vite", icon: SiVite },
       { name: "PostgreSQl", icon: SiPostgresql },
+      { name: "SpringBoot", icon: SiSpringboot },
+      { name: "Java", icon: FaJava },
+      { name: "Nginx", icon: SiNginx },
+    ],
+  },
+  {
+    title: "WeSpend - Expense Tracker Web Application",
+    results: [
+      { title: "Enables user to track their daily expenses" },
+      { title: "Allows user to add, edit, and delete expenses" },
+      { title: "Displays daily, weekly, and monthly expense summaries" }
+    ],
+    link: "",
+    repo: "https://github.com/DULAJBHAGYA/Daily-expense-tracker",
+    image: '',
+    technologies: [
+      { name: "Next.js", icon: SiNextdotjs },
+      { name: "TypeScript", icon: BiLogoTypescript },
+      { name: "Clerk", icon: SiClerk },
+      { name: "TailwindCSS", icon: SiTailwindcss },
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "Express.js", icon: SiExpress },
+      { name: "MongoDB", icon: SiMongodb },
     ],
   },
   {
